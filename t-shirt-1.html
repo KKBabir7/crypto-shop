@@ -1,0 +1,405 @@
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+		   t-shirt
+		</title>
+		    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Days+One" rel="stylesheet">
+			<link rel="icon" href="img/calicon.png" type="image/png" sizes="16x16">
+		    <link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+					
+			<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+			<link rel="stylesheet" href="css/material-design-iconic-font.css">
+			<link rel="stylesheet" href="fonts/font-awesome.min.css">
+			  <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+            <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">			
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+            <link rel="stylesheet" href="css/style.css">			
+            <link rel="stylesheet" href="css/t-shirt.css">			
+	</head>
+	<body>
+	<div id="preloder">
+        <div class="loader"></div>
+    </div>
+	   <nav class="navbar navbar-default">
+		    <div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="img/logo.svg"> <span> Shop</span></a>
+				</div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="search-i"> 
+							<div class="searchbar">
+								<input class="search_input" type="text" name="" placeholder="Search...">
+								<a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+							</div>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="drop">All Category</span></a>
+							<ul class="drop-menu">
+								<li><a href="#">Kid's Clothing</a></li>
+								<li><a href="#">Men’s Clothing</a></li>
+								<li><a href="#">Women’s Clothing</a></li>
+								<li><a href="#">Luxury Brands</a></li>
+							</ul>
+						</li>
+						<li class="select"><a href="#">All Prices in 
+							<select name="currency" id="currency">
+								<option value="volvo">USD &#x24;</option>
+								<option value="saab">EUR &#x20AC;</option>
+							</select></a>
+						</li>
+						<li class="shop">
+							<a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+						</li>
+					</ul>
+			    </div>
+		    </div>
+		</nav>
+		<div class="container-fluid">
+		    <div class="container"><br>
+			    <div class="row">
+<!-----------------------t-shirt slide------------ -->
+				    <div class="col-md-6 slides">
+					    <div class="mySlides">
+							<div class="numbertext">1 / 3</div>
+							<img src="img/t-shirt/tee01-front.png" style="width:100%;">
+						</div>
+
+						<div class="mySlides">
+						    <div class="numbertext">2 / 3</div>
+							<img src="img/t-shirt/tee02-closeup.png" style="width:100%">
+						</div>
+						<div class="mySlides">
+							<div class="numbertext">3 / 3</div>
+							<img src="img/t-shirt/tee03-back.png" style="width:100%">
+						</div>
+							<a class="prev" onclick="plusSlides(-1)">❮</a>
+							<a class="next" onclick="plusSlides(1)">❯</a>
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+					    <div class="row u-img">
+							<div class="column">
+							  <img class="demo cursor" src="img/t-shirt/tee01-front.png" style="width:100%" onclick="currentSlide(1)" alt="Front site zoom out">
+							</div>
+							<div class="column">
+							  <img class="demo cursor" src="img/t-shirt/tee02-closeup.png" style="width:100%" onclick="currentSlide(2)" alt="Front site zoom in">
+							</div>
+							<div class="column">
+							  <img class="demo cursor" src="img/t-shirt/tee03-back.png" style="width:100%" onclick="currentSlide(3)" alt="Back site">
+							</div>
+                        </div>  
+					</div>
+<!-----------------------t-shirt masurment --------------->
+					<div class="col-md-6 t-m">
+					    <div class="t-caption">
+					        <h1>Crypto.com Tee (Unisex)</h1>
+						    <h2>$<span id="prices">25</span></h2>
+					    </div>
+						<div style="margin-top:20px;" class="row">
+						    <div class="col-md-12">
+							   <p>Category : <span>t-shirt</span></p>
+							   <p>Availibility :<span> In Stock</span></p>
+							</div>
+							
+
+						</div>
+						<div class="row t-select">
+						    <div class="guide">
+						    <div class="col-md-6 col-sm-6 col-xs-6 ">
+						        <span style="font-weight:bold;color:rgba(0,0,0,0.5)">Size</span>
+						    </div>
+							<div class="col-md-6 col-sm-6 col-xs-6">
+						        <span onclick="size()" style="font-weight:bold;font-size:15px;color:#1199fa;cursor:pointer;clear:both">Size Guide</span>
+						    </div>
+						    </div>
+							<div class="row">
+							    <div class="col-md-12">
+									<select name="t-mesurment" id="mesurment">
+										<option value="">Choose A Size</option>
+										<option value="xs">XS</option>
+										<option value="s">S</option>
+										<option value="l">L</option>
+										<option value="m">M</option>
+										<option value="xl">XL</option>
+										<option value="2xl">2XL</option>
+									</select>
+								</div>
+							</div>	
+					    </div>
+						<div class="row">
+						   <br>
+							<div class="col-md-12">
+								<span style="font-weight:bold;color:rgba(0,0,0,0.5)">Quantity</span>
+								<ul class="media-list count">
+									<li class="media">
+										<div class="media-left">
+											<form id='myform' method='POST' action='#'>
+												<input type='button' value='-' class='qtyminus' field='quantity' />
+												<input id="quantity" type='text' name='quantity' value='0' class='qty' />
+												<input type='button' value='+' class='qtyplus' field='quantity' />
+											</form>
+										</div>
+									</li>								
+								</ul>
+							</div>
+						</div>
+						<div class="row cart">
+							<div class="col-md-12">
+								 <button onclick="adcart()" type="button" class="btn btn-primary btn-lg">Add to Cart</button>
+							</div>
+						</div>
+						<hr>
+						<p class="t-f-footer">The official t-shirt for Crypto.com users and supporters. The Ethereum Lion logo is printed on this navy basic crew.</p>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+<!-----------------------footer -->
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-2 col-sm-3">
+				   <p style="float:right"><a href="#">Terms Conditions</a></p>
+				</div>
+				<div class="col-md-2 col-sm-3">
+				   <p><a href="#">Privacy policy</a></p>
+				</div>
+				<div class="col-md-8 col-sm-6">
+					<p style="float:right">
+						Copyright© 2018-2019 Crypto.com. All rights reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+	    <div id="myModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+				<span class="close">&times;</span>
+					<center><h1>Size Guide</h1></center>
+					
+				</div>
+				<div class="modal-body">
+					<div class="row">
+					    <div class="col-md-6">
+						    <img class="img-responsive"  src="img/t-shirt/sizeguide1.PNG" style="height:50%;">
+						</div>
+						 <div class="col-md-6">
+						    <h3 style="color:#1e3f6f;">Unisex tee</h3>
+							<img class="img-responsive"  src="img/t-shirt/sizeguid2.PNG" style="height:50%;"> 
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div id="addcart" class="tmodal">
+			<div class="modal-content">
+				<div class="modal-header">
+				
+					<center><h3><span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span> Add To Cart</h3></center>
+					
+				</div>
+				<div class="modal-body">
+					<div class="row">
+					    <div class="col-md-12">
+						    <div class="media">
+								<div class="media-left">
+									<a href="#">
+									  <img class="media-object" src="img/products/tee-front1.png" alt="...">
+									</a>
+								</div>
+								<div class="media-body" style="padding-bottom:10px;">
+								     <br>
+									<h4 class="media-heading">Crypto.com Tee (Unisex)</h4>
+									<h5>Size: &nbsp;<span id="sizes"></span></h5>
+									<h5>Quantity: &nbsp;<span id="quantitys"></span></h5>
+									<hr>
+									<div class="row" style="margin-top:-20px;">
+					                    <div class="col-md-6 col-xs-6 col-sm-6">
+										    <h5>Total</h5>
+										</div>
+										<div class="col-md-6 col-xs-6 col-sm-6">
+										    <h4 id="totals"></h4>
+										</div>
+										
+								    </div>
+									<div class="row proceed" style="margin-top:-20px;">
+					                    <div class="col-md-12">
+										     <a href="#" type="button" class="btn view btn-primary btn-lg">View Cart</a>
+										     <a href="payment.html" type="button" class="btn check btn-primary btn-lg">Proceed to Checkout</a>
+										</div>
+										
+								    </div>
+						    </div>
+						</div>
+						 
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+<!-- all script link -->
+ <script src="js/jquery-3.3.1.min.js"></script>
+		    <script src="js/bootstrap.js"></script>
+		    <script src="js/bootstrap.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+			<script src="js/main.js"></script>
+			<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<script>
+				   jQuery(document).ready(function(){
+					// This button will increment the value
+					$('.qtyplus').click(function(e){
+						// Stop acting like a button
+						e.preventDefault();
+						// Get the field name
+						fieldName = $(this).attr('field');
+						// Get its current value
+						var currentVal = parseInt($('input[name='+fieldName+']').val());
+						// If is not undefined
+						if (currentVal == 5) {
+							$('input[name='+fieldName+']').val(currentVal);
+						}
+						else if (!isNaN(currentVal) ) {
+							// Increment
+							$('input[name='+fieldName+']').val(currentVal + 1);
+						} 
+						else {
+							// Otherwise put a 0 there
+							$('input[name='+fieldName+']').val(0);
+						}
+					});
+					// This button will decrement the value till 0
+					$(".qtyminus").click(function(e) {
+						// Stop acting like a button
+						e.preventDefault();
+						// Get the field name
+						fieldName = $(this).attr('field');
+						// Get its current value
+						var currentVal = parseInt($('input[name='+fieldName+']').val());
+						// If it isn't undefined or its greater than 0
+						if (!isNaN(currentVal) && currentVal > 0) {
+							// Decrement one
+							$('input[name='+fieldName+']').val(currentVal - 1);
+						} else {
+							// Otherwise put a 0 there
+							$('input[name='+fieldName+']').val(0);
+						}
+					});
+					});
+		        </script>  
+                <script>
+				function size(){
+				var modal = document.getElementById("myModal");
+				var span = document.getElementsByClassName("close")[0];
+				  modal.style.display = "block";
+				span.onclick = function() {
+				  modal.style.display = "none";
+				}
+				window.onclick = function(event) {
+				  if (event.target == modal) {
+					modal.style.display = "none";
+				  }
+				}
+				return false;
+				}
+		    </script>				
+		    <script>
+                function adcart(){
+				    var quantity=document.getElementById("quantity").value;
+					var mesurment=document.getElementById("mesurment").value;
+					var tmodal = document.getElementById("addcart");
+					var sizes = document.getElementById("sizes");
+					var quantitys = document.getElementById("quantitys");
+					var totals = document.getElementById("totals");
+					
+					var prices = document.getElementById("prices").innerHTML;
+				    
+				  tmodal.style.display = "block";
+				
+				window.onclick = function(event) {
+				  if (event.target == tmodal) {
+					tmodal.style.display = "none";
+				  }
+				}
+					if(quantity==0){
+					    alert('Must BE Increment Quantity')
+						tmodal.style.display = "none";
+					}
+					if(quantity>0){
+					    sizes.innerHTML=mesurment;
+						
+					}
+					
+				   if(mesurment==""){
+				        alert('Muse Be Select Your Size')
+						tmodal.style.display = "none";
+				   }
+				   if(mesurment){
+				        quantitys.innerHTML=quantity;
+						
+				   }
+				    var x=quantity * prices;
+					 totals.innerHTML="$" + x;
+				}			
+		    </script>				
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

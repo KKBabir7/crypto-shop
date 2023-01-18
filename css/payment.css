@@ -1,0 +1,91 @@
+
+.container-fluid .all-payment{
+	margin-top:-25px;
+}
+
+.back .back-c {
+	border-radius:10px;
+	background:rgba(0,0,0,0.1);
+	color:#1199fa;
+	border:none;
+	margin-top:10px;
+	font-weight:bold;
+	box-shadow:none;
+	transition:0.2s;
+}
+.container-fluid .back-c:hover {
+	background:rgba(255,255,225,0.8);
+	transition:0.2s;
+}
+
+.container-fluid .back-c:focus{
+	border:none;
+	box-shadow:none;
+	background:#8B8989;
+}
+.form .form-group label{
+	color:rgba(0,0,0,0.5);
+}
+
+.form  .c-payment{
+	padding-left:50px;
+	padding-right:50px;
+	background:#1199fa;
+	border-radius:5px;
+	outline:none;
+	border:none;
+	margin-top:10px;
+	transition:0.1s;
+	box-shadow:none;
+}
+.form  .c-payment:hover{
+	background:#2270AF;
+	transition:0.1s;
+}
+.form  .c-payment:focus{
+	background:#2270AF;
+	transition:0.1s;
+}
+
+
+
+.all-total{
+	margin-top:120px;
+	background:rgba(225,231,222,0.2);
+	padding-top:20px;
+	padding-bottom:20px;
+	border-radius:10px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.all-total .t-t{
+	font-weight:400;
+}
+
+ @media screen and (max-width: 992px) {
+	.all-total{
+	margin-top:30px;
+	
+}
+ 
+	 
+ }
+
+ @media screen and (max-width: 792px) {
+.u-border{
+	width:80%;
+}
+	.all-total{
+	margin-top:30px;
+	padding-left:0px;
+	padding-right:0px;
+}
+ 
+	 
+ }
+
+
+
+
+
